@@ -61,7 +61,7 @@ if v5.Owner.Value == lplr then
 plr.CFrame = v.Controls.Close.Part.CFrame
 wait(0.2)
 game:GetService("ReplicatedStorage").RemoteEvents.Jumped:FireServer()
-wait(0.01)
+wait()
 buttonpush.Disabled = false
 plr.CFrame = v.Controls.Done.Part.CFrame
 getgenv().AutoAccept = true

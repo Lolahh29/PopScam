@@ -56,3 +56,9 @@ end)
 Section:NewButton("Disable AutoAccept", "", function()
 getgenv().AutoAccept = false
 end)
+Section:NewButton("Show Item Value", "", function()
+game.Players.LocalPlayer.XRay.Value = true
+end)
+Section:NewKeybind("ToggleUI", "Self Explanatory", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
